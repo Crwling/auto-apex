@@ -1,0 +1,64 @@
+.carouselWrapper {
+  max-width: 100%;
+  position: relative;
+  overflow: visible;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.slide {
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.imageRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.image {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2rem;
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.leftArrow {
+  left: -30px;
+}
+
+.rightArrow {
+  right: -30px;
+}

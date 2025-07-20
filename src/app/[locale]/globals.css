@@ -1,3 +1,108 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  /* --font-urbanist: 'Urbanist', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif; */
+  --black: #212121;
+  --blue: #6BA2FF;
+  --light-grey: #ECF0FB;
+  --grey: #4D4D4D;
+  --beige: #EAEAEA;
+  --red: #FF4646;
+  --white: #FFFFFF;
+  --error: #FF5353;
+  --errorBorder: #FF6A6A;
+}
+
+html {
+  display: flex;
+  scroll-behavior: smooth;
+  font-family: var(--font-montserrat), var(--font-urbanist), var(---font-manrope), sans-serif;
+}
+
+p {
+  font-family: var(--font-montserrat);
+  font-weight: 500; /* Medium */
+  font-size: 16px;
+  line-height: 26px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-montserrat);
+}
+
+h1 {
+  font-family: var(--font-urbanist);
+  font-weight: 600; /* SemiBold */
+  font-size: 64px;
+  line-height: 88px;
+}
+
+h2 {
+  font-family: var(--font-montserrat);
+  font-weight: 600; /* SemiBold */
+  font-size: 32px;
+  line-height: 44px;
+}
+
+h3 {
+  font-family: var(--font-montserrat);
+  font-weight: 600; /* SemiBold */
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.custom-select__control {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #DADADA !important;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+  border-radius: 12px !important;
+  height: 62px;
+}
+
+.custom-select__option {
+  height: 62px;
+  display: flex !important;
+  align-items: center;
+  padding: 0 26px !important;
+}
+
+.custom-select__menu {
+  border-radius: 12px !important;
+}
+
+.custom-select__option:hover {
+  background-color: #DADADA !important;
+  color: var(--black) !important;
+}
+
+.custom-select__option--is-selected {
+  background-color: var(--grey) !important;
+}
+
+.custom-select__menu-list {
+  border-radius: 12px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.custom-select__option--is-focused {
+  background-color: #DADADA !important;
+}
+
+.custom-select__value-container {
+  padding-left: 24px !important;
+}
+
+.custom-select__placeholder {
+  font-family: var(--font-montserrat);
+  font-weight: 500; /* Medium */
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121 !important;
+}

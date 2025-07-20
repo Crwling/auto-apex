@@ -1,0 +1,81 @@
+@import "../../styles/mixin";
+
+.container {
+  position: relative;
+  display: flex;
+  padding: 40px 20px 60px;
+  box-sizing: border-box;
+  scroll-padding-top: 40px;
+  flex-direction: column;
+
+  @include respond-to(desktop) {
+    flex-direction: row;
+    padding: 90px 60px 60px 60px;
+  }
+
+  @include respond-to(mobile) {
+    padding: 40px 16px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+
+    @include respond-to(desktop) {
+      width: 62.5%;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+
+    .image {
+      position: relative;
+      background: url('/assets/banner.png') no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 69px 63px;
+      color: white;
+      text-align: center;
+      margin-top: 40px;
+      height: 383px;
+      box-sizing: border-box;
+
+      @include respond-to(mobile) {
+        padding: 42px 22px;
+      }
+
+      .logo {
+        width: 142px;
+        height: 27px;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      h3 {
+        margin-top: 12px;
+        margin-bottom: 0;
+        text-align: left;
+      }
+    }
+  }
+
+  .requestForm {
+    margin-top: 60px;
+
+    @include respond-to(desktop) {
+      width: 37.5%;
+      margin-left: 94px;
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.switcher {
+  position: relative;
+  z-index: 1;
+  background-color: var(--black);
+  color: white;
+  gap: 8px;
+  border: 1px solid var(--blue) !important;
+  padding: 0 9px;
+  height: 39px;
+  box-sizing: border-box;
+
+  &.buttonOpen {
+    border-radius: 20px;              
+    border-color: var(--blue);
+  }
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% - 21px);
+  left: 0;
+  background-color: #212121;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  width: 100%;
+  z-index: 0;
+  border-radius: 0 0 10px 10px;
+  border-top: none; /* убираем верхнюю границу, чтобы не было двойной линии с кнопкой */
+  text-align: center;
+  padding-top: 20px;
+}
+
+.option {
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: var(--blue);
+}
+
+.active {
+  background-color: var(--blue);
+}

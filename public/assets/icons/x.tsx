@@ -1,0 +1,17 @@
+import React from "react";
+
+const Twitter = ({ className }: React.SVGProps<SVGSVGElement>) => (
+
+  <svg 
+    width="32" 
+    height="32" 
+    viewBox="0 0 32 32" 
+    fill="none" 
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path d="M16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0ZM15.1475 16.8955L8.89648 24H10.3096L15.7744 17.7881L20.1396 24H24.9082L18.4248 14.7754L24.3857 8H22.9736L17.7979 13.8828L13.6641 8H8.89648L15.1475 16.8955ZM17.0547 14.7275L17.6875 15.6133L22.9736 23.0078H20.8047L16.4912 16.9746L15.8574 16.0879L10.8184 9.04004H12.9873L17.0547 14.7275Z" fill="#212121"/>
+  </svg>
+)
+
+export default Twitter;

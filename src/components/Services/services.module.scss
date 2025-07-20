@@ -1,0 +1,73 @@
+@import '../../styles/mixin.scss';
+
+.container {
+  background-color: #F9FAFF;
+  padding: 74px 60px;
+
+  @include respond-to(tablet) {
+    padding: 40px 20px;
+  }
+
+  @include respond-to(mobile) {
+    padding: 30px 16px;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    @include respond-to(tablet) {
+      gap: 20px;
+    }
+
+    @include respond-to(mobile) {
+      gap: 16px;
+    }
+
+    .card {
+      width: calc((100% - 96px) / 4); // Adjust for 4 cards in a row
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 0 12px rgba(148, 148, 148, 0.25);
+      margin: 0;
+      display: flex;
+      text-align: center;
+      padding: 40px 0px;
+      box-sizing: border-box;
+
+      @include respond-to(tablet) {
+        width: calc((100% - 20px) / 2); // Adjust for 2 cards in a row
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      @include respond-to(mobile) {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+      }
+
+      .image {
+        width: 80px;
+        height: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        @include respond-to(mobile) {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+
+  }
+}

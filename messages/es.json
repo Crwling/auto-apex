@@ -1,0 +1,37 @@
+{
+  "notFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+  },
+  "header": {
+    "home": "Home",
+    "about-us": "About us",
+    "services": "Services", 
+    "portfolio": "Portfolio",
+    "faq": "FAQ",
+    "contacts": "Contacts",
+    "leave-a-request": "dejar el pisos"
+  },
+  "footer": {
+    "contacts": "Contacts:",
+    "phone": "+1 789 123456",
+    "email": "hello@containers.kit",
+    "copyright": "Auto Apex © 2025"
+  },
+  "hero": {
+    "intro": {
+      "description-h1": "Premium Auto Upholstery & Detailing Service in Spain",
+      "secription-div": "Transform your car interior with expert craftmanship — quality, style, and comfort.",
+      "schedule": "Monday to Friday 9:30 AM — 1:00 PM 2:00 PM — 6:00 PM"
+    },
+    "about": {
+      "about-h1": "About AutoApex",
+      "about-description-1": "At AutoApex, we specialize in high-end car interior restoration and customization. Whether it’s a simple headliner reupholstery or a full interior transformation with Alcantara, leather, and ambient lighting — we bring precision, style, and passion into every project.",
+      "about-description-2": "Based in Spain, we serve private car owners, enthusiasts, and detailing professionals who want their vehicles to reflect true craftsmanship. We understand how much time people spend in their cars, and how important comfort, aesthetics, and quality materials are — that’s why we work only with the best.",
+      "about-description-3": "Our team combines traditional attention to detail with modern design trends. From luxury interiors to functional upgrades, we help clients turn everyday drives into exceptional experiences.",
+      "about-description-4": "AutoApex is not just a service — it’s a destination for car lovers who care about every stitch, texture, and finish.",
+      "about-photo-h1": "Drive in Style",
+      "about-photo-p": "Custom Car Interiors. Premium Materials. Flawless Finish."
+    }
+  }
+}

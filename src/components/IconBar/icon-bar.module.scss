@@ -1,0 +1,20 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 240px;
+
+  .iconLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon {
+      cursor: pointer;
+    }
+  }
+
+    .icon { //убрать как будут все линки
+      cursor: pointer;
+    }
+}

@@ -1,16 +1,106 @@
 {
-  "IndexPage": {
-    "title": "next-intl example",
-    "description": "Welcome to the Next.js Internationalization (i18n) example! This demo showcases the power of the App Router and how to manage multilingual content seamlessly using next-intl."
-  },
-  "NotFoundPage": {
+  "notFoundPage": {
     "title": "Page Not Found",
     "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
   },
-  "Navigation": {
-    "home": "Home"
+  "header": {
+    "home": "Home",
+    "about-us": "About us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "faq": "FAQ",
+    "contacts": "Contacts",
+    "leave-a-request": "Leave a request"
   },
-  "Footer": {
-    "copyright": "© 2024 Your App. All rights reserved."
+  "footer": {
+    "contacts": "Contacts:",
+    "phone": "+1 789 123456",
+    "email": "hello@containers.kit",
+    "copyright": "Auto Apex © 2025",
+    "home": "Home",
+    "about-us": "About us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "faq": "FAQ",
+    "leave-a-request": "Leave a request"
+  },
+  "hero": {
+      "description-h1": "Premium Auto Upholstery & Detailing Service in Spain",
+      "description-h3": "Transform your car interior with expert craftmanship — quality, style, and comfort.",
+      "button": "Explore Services",
+      "description2-h1": "Restored. Refreshed. Like New.",
+      "description2-h3": "Leather cleaning, detailing, and headlight polishing for that showroom look.",
+      "button2": "Book a Free Consultation",
+      "description3-h1": "Details Make the Difference",
+      "description3-h3": "From precise stitching to luxury finishes — we turn every ride into a statement.",
+      "button3": "Discover the AutoApex",
+      "schedule1": "Monday to Friday",
+      "schedule2": "9:30 AM — 1:00 PM",
+      "schedule3": "2:00 PM — 6:00 PM"
+  },
+  "about": {
+    "about-h1": "About AutoApex",
+    "about-description-1": "At AutoApex, we specialize in high-end car interior restoration and customization. Whether it's a simple headliner reupholstery or a full interior transformation with Alcantara, leather, and ambient lighting — we bring precision, style, and passion into every project.",
+    "about-description-2": "Based in Spain, we serve private car owners, enthusiasts, and detailing professionals who want their vehicles to reflect true craftsmanship. We understand how much time people spend in their cars, and how important comfort, aesthetics, and quality materials are — that's why we work only with the best.",
+    "about-description-3": "Our team combines traditional attention to detail with modern design trends. From luxury interiors to functional upgrades, we help clients turn everyday drives into exceptional experiences.",
+    "about-description-4": "AutoApex is not just a service — it's a destination for car lovers who care about every stitch, texture, and finish.",
+    "about-photo-h1": "Drive in Style",
+    "about-photo-h3": "Custom Car Interiors. Premium Materials. Flawless Finish."
+  },
+  "leave-a-request": {
+    "head": "Leave a request",
+    "name": "Name",
+    "warning": "Please enter your name!",
+    "number": "Number",
+    "email": "E-mail",
+    "dropdown": "How did you find us?",
+    "comment": "Comment",
+    "button": "Submit"
+  },
+  "services": {
+    "head": "Our Services",
+    "option-title-1": "Ceiling Upholstery",
+    "option-description-1": "Expert reupholstery using premium materials like Alcantara and genuine leather.",
+    "option-title-2": "Door Inserts Upholstery",
+    "option-description-2": "Restoring and upgrading door trims with high-quality fabrics.",
+    "option-title-3": "Steering Wheel Upholstery",
+    "option-description-3": "Enhance driving comfort and style with custom leather or Alcantara steering wraps.",
+    "option-title-4": "Leather Cleaning & Restoration",
+    "option-description-4": "Revitalize your leather interiors to look as good as new.",
+    "option-title-5": "Starry Headliner Installation",
+    "option-description-5": "Add a touch of luxury and night-sky magic to your car's ceiling.",
+    "option-title-6": "Headlight Polishing",
+    "option-description-6": "Bring back brightness and clear vision to your headlights.",
+    "option-title-7": "Custom Material Sales",
+    "option-description-7": "Premium Alcantara, leather, and fabrics for your own projects.",
+    "option-title-8": "Pillar & Trunk Upholstery",
+    "option-description-8": "Renew pillar trims and trunk areas to match your new interior style."
+  },
+  "portfolio": {
+    "name": "Portfolio",
+    "make": "Make",
+    "year": "Year"
+  },
+  "prices": "Prices from €100",
+  "faq": {
+    "head": "Frequently Asked Questions",
+    "question-1": "How long does it take to reupholster a car interior?",
+    "answer-1": "Depending on the complexity and materials chosen, most projects take between 2 to 7 days. We always aim to complete the work as quickly as possible while maintaining high quality.",
+    "question-2": "Can I choose custom materials and colors?",
+    "answer-2": "Yes",
+    "question-3": "Do you offer a warranty on your services?",
+    "answer-3": "Yes",
+    "question-4": "Do I need to bring my car to your workshop?",
+    "answer-4": "Yes",
+    "question-5": "Can you restore old or classic car interiors?",
+    "answer-5": "Yes"
+  },
+  "bottom": {
+    "h1": "Transform Your Drive Today",
+    "h2": "Give your car the interior it deserves — crafted with precision, style, and premium materials.",
+    "main": "Book your free consultation now and rediscover the joy of driving.",
+    "button": "Book Now",
+    "address": "1772 Nevskaya Street NW, Suite 21389, Atlanta, GA 902344"
   }
+
 }

@@ -1,0 +1,104 @@
+@import '../../styles/mixin.scss';
+
+.container {
+  background-color: #F9FAFF;
+  padding: 60px;
+  cursor: default;
+
+  @include respond-to(tablet) {
+    padding: 40px 20px;
+  }
+
+  @include respond-to(mobile) {
+    padding: 30px 16px;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 54px;
+  }
+
+  .wrapper {
+    width: 100%;
+    border-radius: 40px;
+    border: solid 1px #DADADA;
+    background-color: var(--light-grey);
+    gap: 30px;
+    position: relative;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 30px;
+
+    @include respond-to(tablet) {
+      margin-bottom: 20px;
+    }
+
+    @include respond-to(mobile) {
+      border-radius: 24px;
+    }
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+    &.open {
+      background-color: white;
+
+      .icon {
+        transform: rotate(45deg);
+        color: var(--light-grey);
+      }
+    }
+ 
+    .icon {
+      transition: transform 0.2s;
+      color: white;
+      position: absolute;
+      top: 14px;
+      right: 28px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include respond-to(tablet) {
+        right: 22px;
+        top: 16px;
+        width: 40px;
+        height: 40px;
+      }
+
+      @include respond-to(mobile) {
+        right: 10px;
+        top: 10px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .question {
+      margin-top: 22px;
+      margin-left: 30px;
+
+      @include respond-to(tablet) {
+        margin-top: 22px;
+        margin-left: 22px;
+        margin-right: 84px;
+      }
+
+      @include respond-to(mobile) {
+        margin-top: 14px;
+        margin-left: 14px;
+        margin-right: 58px;
+      }
+    }
+
+    .answer {
+      margin: 28px 0px 31px 30px;
+
+      @include respond-to(tablet) {
+        margin: 26px 22px 22px 22px;
+      }
+    }
+  }
+
+}
