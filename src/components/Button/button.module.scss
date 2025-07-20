@@ -1,3 +1,5 @@
+@import '../../styles/mixin.scss';
+
 .button {
   padding: 8px 16px;
   border-radius: 20px;
@@ -40,6 +42,11 @@
     &:hover {
       background-color: var(--red);
       color: var(--white);
+    }
+
+    @include respond-to(mobile) {
+      font-size: 14px;
+      line-height: 28px;
     }
   }
 

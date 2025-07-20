@@ -41,7 +41,7 @@ export default function Hero({ onOpenModal }: { onOpenModal: () => void }) {
 
   return (
     <div id="hero" className={styles.container} style={{
-      backgroundImage: `url(${heroSlides[currentSlide].src})`,
+      background: `url(${heroSlides[currentSlide].src}) no-repeat center center / cover`,
     }}>
       <div className={styles.description}>
         <h1>{t(heroSlides[currentSlide].title)}</h1>

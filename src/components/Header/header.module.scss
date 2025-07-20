@@ -98,6 +98,7 @@
 
                     button {
                         height: 30px;
+                        font-size: 12px;
                     }
                 }
 
@@ -129,6 +130,7 @@
             @include respond-to(mobile) {
                 height: 30px;
                 width: 30px;
+                display: none;
             }
 
             &:hover{
