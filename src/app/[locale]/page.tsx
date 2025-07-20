@@ -32,13 +32,13 @@ export default function Home() {
       <Hero onOpenModal={() => setOpen(true)}/>
       <About/>
       <Services/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       <FAQ/>
-      {/* <Bottom onOpenModal={() => setOpen(true)}/>
+      <Bottom onOpenModal={() => setOpen(true)}/>
       <ModalForm open={open} setOpen={setOpen}>
         <RequestForm />
       </ModalForm>
-      <Footer onOpenModal={() => setOpen(true)}/> */}
+      <Footer onOpenModal={() => setOpen(true)}/>
     </div>
   );
 }
