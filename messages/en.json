@@ -74,7 +74,9 @@
     "option-title-7": "Custom Material Sales",
     "option-description-7": "Premium Alcantara, leather, and fabrics for your own projects.",
     "option-title-8": "Pillar & Trunk Upholstery",
-    "option-description-8": "Renew pillar trims and trunk areas to match your new interior style."
+    "option-description-8": "Renew pillar trims and trunk areas to match your new interior style.",
+    "show-more": "Show More",
+    "show-less": "Show Less"
   },
   "portfolio": {
     "name": "Portfolio",
@@ -100,7 +102,7 @@
     "h2": "Give your car the interior it deserves — crafted with precision, style, and premium materials.",
     "main": "Book your free consultation now and rediscover the joy of driving.",
     "button": "Book Now",
-    "address": "1772 Nevskaya Street NW, Suite 21389, Atlanta, GA 902344"
+    "address": "08850 Gavà, Barcelona, Carrer Riu Ter, 6"
   }
 
 }

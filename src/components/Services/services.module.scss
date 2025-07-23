@@ -60,6 +60,18 @@
         width: 100%;
       }
 
+      &.collapsable {
+        @include respond-to(mobile) {
+          display: flex;
+        }
+      }
+
+      &.isCollapsed {
+        @include respond-to(mobile) {
+          display: none;
+        }
+      }
+
       .image {
         width: 80px;
         height: 80px;
@@ -82,6 +94,21 @@
         line-height: 28px !important;
       }
     }
+  }
 
+  .showMoreBtn {
+    display: none;
+    height: 54px;
+    margin-top: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 90%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond-to(mobile) {
+      display: block;
+    }
   }
 }

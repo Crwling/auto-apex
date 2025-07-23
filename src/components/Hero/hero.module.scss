@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  height: 937px;
+  height: 100dvh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -10,12 +10,10 @@
   background: var(--black);
 
   @include respond-to(tablet) {
-    height: 790px;
     background-size: cover;
   }
 
   @include respond-to(mobile) {
-    height: 100vh;
     background-size: cover;
   }
 
@@ -92,13 +90,32 @@
       }
 
     @include respond-to(desktop) {
-      right: 60px;
+      left: 60px;
       bottom: 66px;
-      left: unset;
     }
 
     .title {
       font-weight: 700;
+    }
+  }
+
+  .whatsapp {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    @include respond-to (tablet) {
+      bottom: 22px;
+      right: 16px;
+    }
+
+    @include respond-to (mobile) {
+      width: 52px;
+      height: 52px;
+      right: 9px;
+      bottom: 38px;
     }
   }
 

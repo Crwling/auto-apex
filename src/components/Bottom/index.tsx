@@ -22,7 +22,13 @@ export default function Bottom({ onOpenModal }: { onOpenModal: () => void }) {
           <h2 className={styles.head}>{tr('contacts')}</h2>
           <div className={styles.address}>
             <Location/>
-            {t('address')}
+            <a
+              href="https://maps.app.goo.gl/FobT6dG4h8z8HLA89?g_st=aw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('address')}
+            </a>
           </div>
           <div className={styles.phone}>
             <Phone/>
@@ -40,8 +46,14 @@ export default function Bottom({ onOpenModal }: { onOpenModal: () => void }) {
             <div>{tt('schedule3')}</div>
           </div>
         </div>
-        <div className={styles.map}>
-        </div>
+        <a
+          href="https://maps.app.goo.gl/FobT6dG4h8z8HLA89?g_st=aw"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={styles.map}>
+          </div>
+        </a>
       </div>
       <div className={styles.requestForm}>
         <RequestForm/>

@@ -24,7 +24,15 @@ export default function IconBar() {
         <Insta className={styles.icon} />
       </a>
       <Twitter className={styles.icon}/>
-      <Facebook className={styles.icon}/>
+      <a
+        href="https://www.facebook.com/share/1D6wMozTRE/?mibextid=wwXIfr"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.iconLink}
+      >
+        <Facebook className={styles.icon} />
+      </a>
+     
       <LinkedIn className={styles.icon}/>
     </div>
   );

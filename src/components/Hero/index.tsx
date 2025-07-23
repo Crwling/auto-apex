@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Button from '../Button';
 import styles from './hero.module.scss';
+import WhatsAppGreen from '../../../public/assets/whatsapp-green';
 
 const heroSlides = [
   {
@@ -53,6 +54,14 @@ export default function Hero({ onOpenModal }: { onOpenModal: () => void }) {
         <div>{t('schedule2')}</div>
         <div>{t('schedule3')}</div>
       </div>
+      <a
+        href="https://wa.me/34638745024" // <-- your WhatsApp number here
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+      >
+        <WhatsAppGreen className={styles.whatsapp}/>
+      </a>
       <div className={styles.progress}>
         <div className={styles.progressBar} style={{ width: `${progressBarWidth}%` }} />
       </div>
