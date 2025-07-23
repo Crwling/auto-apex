@@ -16,6 +16,11 @@
   .heading {
     text-align: center;
     margin-bottom: 54px;
+
+    @include respond-to(mobile) {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
   }
 
   .wrapper {
@@ -34,6 +39,7 @@
 
     @include respond-to(mobile) {
       border-radius: 24px;
+      margin-bottom: 14px;
     }
 
     &:last-child {
@@ -44,12 +50,20 @@
       background-color: white;
 
       .icon {
-        transform: rotate(45deg);
+        transform: rotate(90deg);
         color: var(--light-grey);
+
+        @include respond-to(mobile) {
+          right: 10px;
+          top: 10px;
+          width: 40px;
+          height: 40px;
+        }
       }
     }
  
     .icon {
+      transform: rotate(45deg);
       transition: transform 0.2s;
       color: white;
       position: absolute;
@@ -69,7 +83,7 @@
 
       @include respond-to(mobile) {
         right: 10px;
-        top: 10px;
+        top: 20px;
         width: 40px;
         height: 40px;
       }
@@ -97,6 +111,13 @@
 
       @include respond-to(tablet) {
         margin: 26px 22px 22px 22px;
+      }
+
+      @include respond-to(mobile) {
+        margin: 12px 14px 14px 14px;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
       }
     }
   }

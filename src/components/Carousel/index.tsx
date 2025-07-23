@@ -45,7 +45,7 @@ const Portfolio = () => {
         speed={500}
         slidesToShow={4}
         slidesToScroll={1}
-        autoplay
+        // autoplay
         responsive={[
           {
             breakpoint: 1024,
@@ -75,11 +75,10 @@ const Portfolio = () => {
       >
         {slides.map((item, idx) => (
           <div key={idx} className={styles.slide}>
-            <Image
-              src={item.image}
-              alt={`Slide ${idx + 1}`}
-              width={432}
-              height={273}
+            <div
+              style={{
+                backgroundImage: `url(${item.image})`,
+              }}
               className={styles.image}
             />
             <div className={styles.infoRow}>

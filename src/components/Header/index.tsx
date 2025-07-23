@@ -49,9 +49,9 @@ export default function Header({ onOpenModal }: { onOpenModal: () => void }) {
   return (
     <header className={styles.container}>
       <div className={styles.wrapper}>
-        <div className={styles.image}>
+        <a href="#hero" className={styles.image}>
           <AutoApexLogo/>
-        </div>
+        </a>
         <nav className={styles.navigation}>
           <div className={styles.links}>
             {navLinks.map((link) => (

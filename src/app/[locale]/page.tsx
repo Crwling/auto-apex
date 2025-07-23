@@ -32,7 +32,7 @@ export default function Home() {
       <Hero onOpenModal={() => setOpen(true)}/>
       <About/>
       <Services/>
-      <Portfolio/>
+      {/* <Portfolio/> */}
       <FAQ/>
       <Bottom onOpenModal={() => setOpen(true)}/>
       <ModalForm open={open} setOpen={setOpen}>

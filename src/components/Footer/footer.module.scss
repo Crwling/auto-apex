@@ -1,3 +1,5 @@
+@import '../../styles/mixin.scss';
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -11,53 +13,109 @@
     min-height: 232px;
     background-color: #F9FAFF; ///почему-то
 
-    .leftCol {
-      display: flex;
+    @include respond-to(tablet) {
+      padding: 40px 20px;
       flex-direction: column;
-      justify-content: space-between;
-
-      .contactsTitle {
-        margin: 0 0 28px;
-      }
-
-      .phone, .email {
-        display: flex;
-        flex-direction: row;
-        font-family: var(--font-montserrat);
-        font-weight: 500; /* SemiBold */
-        font-size: 16px;
-        line-height: 26px;
-        gap: 14px;
-      }
-
-      .phone {
-        margin-bottom: 20px;
-      }
+      gap: 40px;
     }
 
-    .nav {
-      display: flex;
-      align-items: center;
+    @include respond-to(mobile) {
+      padding: 28px 0;
       flex-direction: column;
-      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
 
-      .p {
-        margin: 0;
+    .leftCol {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 354px;
+      padding: 0;
+      margin: 0;
+
+      @include respond-to(tablet) {
+        gap: 174px;
       }
 
-      a {
-        font-size: 16px;
-        color: var(--black);
-        text-decoration: none;
+      @include respond-to(mobile) {
+        flex-direction: column;
+        gap: 0px;
+      }
 
-        &:hover {
-          font-weight: bold;
+      .contacts {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .contactsTitle {
+          margin: 0 0 28px;
+
+          @include respond-to(mobile) {
+            font-size: 24px;
+            line-height: 44px;
+            margin-bottom: 14px;
+            text-align: center;
+          }
+        }
+
+        .phone, .email {
+          display: flex;
+          flex-direction: row;
+          font-family: var(--font-montserrat);
+          font-weight: 500; /* SemiBold */
+          font-size: 16px;
+          line-height: 26px;
+          gap: 14px;
+        }
+
+        .phone {
+          margin-bottom: 20px;
+
+          @include respond-to(mobile) {
+            margin-bottom: 12px;
+          }
+        }
+
+        .email {
+          @include respond-to(mobile) {
+            margin-bottom: 28px;
+          }
         }
       }
 
-      .logo {
-        width: 87px;
-        height: 17px;
+      
+
+      .nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include respond-to(mobile) {
+            gap: 22px;
+            margin-bottom: 22px;
+          }
+
+        .p {
+          margin: 0;
+        }
+
+        a {
+          font-size: 16px;
+          color: var(--black);
+          text-decoration: none;
+
+          &:hover {
+            font-weight: bold;
+          }
+        }
+
+        .logo {
+          width: 87px;
+          height: 17px;
+        }
       }
     }
 
@@ -67,6 +125,20 @@
       flex-direction: column;
       justify-content: flex-end;
       gap: 26px;
+
+      @include respond-to(tablet) {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        width: 100%;
+      }
+
+      @include respond-to(mobile) {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        width: 100%;
+      }
 
       .icons {
         display: flex;
@@ -78,6 +150,14 @@
       .button {
         margin-left: auto;
         border: 1px solid var(--black);
+
+        @include respond-to(tablet) {
+          margin-left: 0;
+        }
+
+        @include respond-to(mobile) {
+          margin-left: 0;
+        }
       }
     }
   }

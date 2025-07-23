@@ -1,3 +1,5 @@
+@import "../../styles/mixin";
+
 .input {
   width: 100%;
   padding: 18px 26px;
@@ -12,6 +14,10 @@
   font-weight: 500; /* Medium */
   line-height: 26px;
   height: 62px;
+
+  @include respond-to(mobile) {
+      padding: 18px 14px;
+    }
 
   .input::placeholder {
     font-family: var(--font-montserrat);

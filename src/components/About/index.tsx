@@ -1,7 +1,5 @@
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import styles from "./about.module.scss"
-import Button from '../Button';
 import AutoApexLogo from '../../../public/assets/Auto-apex-logo';
 import RequestForm from '../RequestForm';
 

@@ -12,10 +12,52 @@
   --errorBorder: #FF6A6A;
 }
 
+/* Tablet: max-width 768px */
+@media only screen and (min-width: 768px) and (max-width: 1170px) {
+  h1 {
+    font-family: var(--font-manrope) !important;
+    font-weight: 600 !important; /* SemiBold */
+    font-size: 46px !important;
+    line-height: 68px !important;
+  }
+
+  h3 {
+    font-family: var(--font-montserrat) !important;
+    font-weight: 700 !important; /* Bold */
+    font-size: 20px !important;
+    line-height: 38px !important;
+  }
+}
+
+/* Mobile: max-width 320px */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    font-family: var(--font-manrope) !important;
+    font-weight: 600 !important; /* SemiBold */
+    font-size: 32px !important;
+    line-height: 44px !important;
+  }
+
+  h3 {
+    font-family: var(--font-montserrat) !important;
+    font-weight: 700 !important; /* Bold */
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  .custom-select__option {
+    padding: 0 14px !important;
+  }
+
+  .custom-select__value-container {
+    padding-left: 0px !important;
+  }
+}
+
 html {
   display: flex;
   scroll-behavior: smooth;
-  font-family: var(--font-montserrat), var(--font-urbanist), var(---font-manrope), sans-serif;
+  font-family: var(--font-montserrat), var(--font-urbanist), var(--font-manrope), sans-serif;
 }
 
 p {
@@ -96,8 +138,8 @@ h3 {
 }
 
 .custom-select__value-container {
-  padding-left: 24px !important;
-}
+  padding-left: 24px !important; /*!important*/
+} 
 
 .custom-select__placeholder {
   font-family: var(--font-montserrat);

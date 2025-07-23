@@ -14,6 +14,11 @@
 
   .heading {
     text-align: center;
+
+    @include respond-to(mobile) {
+      font-size: 24px;
+      line-height: 44px;
+    }
   }
 
   .grid {
@@ -70,6 +75,11 @@
             width: 60px;
           }
         }
+      }
+
+      .title {
+        font-size: 20px !important;
+        line-height: 28px !important;
       }
     }
 
