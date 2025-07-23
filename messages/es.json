@@ -1,37 +1,109 @@
 {
   "notFoundPage": {
-    "title": "Page Not Found",
-    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+    "title": "Página no encontrada",
+    "description": "¡Vaya! Parece que ha llegado a una página que no existe. No se preocupe, nuestra magia de internacionalización sigue funcionando en otras partes de la aplicación. Si lo desea, puede regresar y seguir explorando."
   },
   "header": {
-    "home": "Home",
-    "about-us": "About us",
-    "services": "Services", 
-    "portfolio": "Portfolio",
-    "faq": "FAQ",
-    "contacts": "Contacts",
-    "leave-a-request": "dejar el pisos"
+    "home": "Inicio",
+    "about-us": "Sobre nosotros",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "faq": "Preguntas frecuentes",
+    "contacts": "Contacto",
+    "leave-a-request": "Enviar solicitud"
   },
   "footer": {
-    "contacts": "Contacts:",
-    "phone": "+1 789 123456",
+    "contacts": "Contacto:",
+    "phone": "+34 638 745 024",
     "email": "hello@containers.kit",
-    "copyright": "Auto Apex © 2025"
+    "copyright": "Auto Apex © 2025",
+    "home": "Inicio",
+    "about-us": "Sobre nosotros",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "faq": "Preguntas frecuentes",
+    "leave-a-request": "Enviar solicitud"
   },
   "hero": {
-    "intro": {
-      "description-h1": "Premium Auto Upholstery & Detailing Service in Spain",
-      "secription-div": "Transform your car interior with expert craftmanship — quality, style, and comfort.",
-      "schedule": "Monday to Friday 9:30 AM — 1:00 PM 2:00 PM — 6:00 PM"
-    },
-    "about": {
-      "about-h1": "About AutoApex",
-      "about-description-1": "At AutoApex, we specialize in high-end car interior restoration and customization. Whether it’s a simple headliner reupholstery or a full interior transformation with Alcantara, leather, and ambient lighting — we bring precision, style, and passion into every project.",
-      "about-description-2": "Based in Spain, we serve private car owners, enthusiasts, and detailing professionals who want their vehicles to reflect true craftsmanship. We understand how much time people spend in their cars, and how important comfort, aesthetics, and quality materials are — that’s why we work only with the best.",
-      "about-description-3": "Our team combines traditional attention to detail with modern design trends. From luxury interiors to functional upgrades, we help clients turn everyday drives into exceptional experiences.",
-      "about-description-4": "AutoApex is not just a service — it’s a destination for car lovers who care about every stitch, texture, and finish.",
-      "about-photo-h1": "Drive in Style",
-      "about-photo-p": "Custom Car Interiors. Premium Materials. Flawless Finish."
-    }
+    "description-h1": "Tapicería y detallado premium para autos en España",
+    "description-h3": "Transforme el interior de su coche con artesanía experta — calidad, estilo y confort.",
+    "button": "Explorar servicios",
+    "description2-h1": "Restaurado. Renovado. Como nuevo.",
+    "description2-h3": "Limpieza de cuero, detallado y pulido de faros para ese acabado de sala de exposición.",
+    "button2": "Reservar una consulta gratuita",
+    "description3-h1": "Los detalles marcan la diferencia",
+    "description3-h3": "Desde costuras precisas hasta acabados de lujo — convertimos cada viaje en una declaración.",
+    "button3": "Descubra AutoApex",
+    "schedule1": "Lunes a viernes",
+    "schedule2": "9:30 — 13:00",
+    "schedule3": "14:00 — 18:00"
+  },
+  "about": {
+    "about-h1": "Sobre AutoApex",
+    "about-description-1": "En AutoApex, nos especializamos en restauración y personalización de interiores de coches de alta gama. Ya sea una simple retapización del techo o una transformación completa con Alcántara, cuero e iluminación ambiental — aportamos precisión, estilo y pasión a cada proyecto.",
+    "about-description-2": "Con sede en España, atendemos a propietarios de vehículos, entusiastas y profesionales del detallado que desean que sus coches reflejen verdadera artesanía. Sabemos cuánto tiempo pasa usted en su vehículo, y lo importantes que son la comodidad, la estética y los materiales de calidad — por eso trabajamos solo con lo mejor.",
+    "about-description-3": "Nuestro equipo combina la atención tradicional al detalle con las tendencias modernas de diseño. Desde interiores de lujo hasta mejoras funcionales, ayudamos a transformar cada trayecto en una experiencia excepcional.",
+    "about-description-4": "AutoApex no es solo un servicio — es un destino para los amantes de los coches que valoran cada puntada, textura y acabado.",
+    "about-photo-h1": "Conduzca con estilo",
+    "about-photo-h3": "Interiores personalizados. Materiales premium. Acabado impecable."
+  },
+  "leave-a-request": {
+    "head": "Enviar solicitud",
+    "name": "Nombre",
+    "warning-name": "¡Por favor, introduzca su nombre!",
+    "number": "Teléfono",
+    "warning-number": "¡Por favor, introduzca su teléfono!",
+    "email": "Correo electrónico",
+    "warning-email": "¡Por favor, introduzca su correo electrónico!",
+    "dropdown": "¿Cómo nos ha encontrado?",
+    "comment": "Comentario",
+    "button": "Enviar"
+  },
+  "services": {
+    "head": "Nuestros servicios",
+    "option-title-1": "Tapizado de techo",
+    "option-description-1": "Retapizado profesional con materiales premium como Alcántara y cuero genuino.",
+    "option-title-2": "Tapizado de puertas",
+    "option-description-2": "Restauración y mejora de paneles de puerta con telas de alta calidad.",
+    "option-title-3": "Tapizado del volante",
+    "option-description-3": "Mejore la comodidad y el estilo con cubiertas personalizadas de cuero o Alcántara.",
+    "option-title-4": "Limpieza y restauración de cuero",
+    "option-description-4": "Revitalice el cuero de su coche para que luzca como nuevo.",
+    "option-title-5": "Instalación de techo estrellado",
+    "option-description-5": "Agregue un toque de lujo y magia nocturna al techo de su coche.",
+    "option-title-6": "Pulido de faros",
+    "option-description-6": "Recupere la claridad y el brillo de sus faros.",
+    "option-title-7": "Venta de materiales personalizados",
+    "option-description-7": "Alcántara, cuero y telas premium para sus propios proyectos.",
+    "option-title-8": "Tapizado de pilares y maletero",
+    "option-description-8": "Renueve los pilares y el maletero para que combinen con su nuevo interior.",
+    "show-more": "Mostrar más",
+    "show-less": "Mostrar menos"
+  },
+  "portfolio": {
+    "name": "Portafolio",
+    "make": "Marca",
+    "year": "Año"
+  },
+  "prices": "Precios desde €100",
+  "faq": {
+    "head": "Preguntas frecuentes",
+    "question-1": "¿Cuánto tiempo se tarda en retapizar el interior de un coche?",
+    "answer-1": "Dependiendo de la complejidad y los materiales elegidos, la mayoría de los proyectos tardan entre 2 y 7 días. Siempre procuramos completar el trabajo lo antes posible sin comprometer la calidad.",
+    "question-2": "¿Puedo elegir materiales y colores personalizados?",
+    "answer-2": "Sí",
+    "question-3": "¿Ofrecen garantía en sus servicios?",
+    "answer-3": "Sí",
+    "question-4": "¿Debo llevar mi coche al taller?",
+    "answer-4": "Sí",
+    "question-5": "¿Pueden restaurar interiores de coches antiguos o clásicos?",
+    "answer-5": "Sí"
+  },
+  "bottom": {
+    "h1": "Transforme su coche hoy",
+    "h2": "Dé a su vehículo el interior que merece — diseñado con precisión, estilo y materiales premium.",
+    "main": "Reserve su consulta gratuita ahora y redescubra el placer de conducir.",
+    "button": "Reservar ahora",
+    "address": "08850 Gavà, Barcelona, Carrer Riu Ter, 6"
   }
 }

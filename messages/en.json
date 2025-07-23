@@ -14,7 +14,7 @@
   },
   "footer": {
     "contacts": "Contacts:",
-    "phone": "+1 789 123456",
+    "phone": "+34 638 745 024",
     "email": "hello@containers.kit",
     "copyright": "Auto Apex © 2025",
     "home": "Home",
@@ -50,9 +50,11 @@
   "leave-a-request": {
     "head": "Leave a request",
     "name": "Name",
-    "warning": "Please enter your name!",
+    "warning-name": "Please enter your name!",
     "number": "Number",
+    "warning-number": "Please enter your number!",
     "email": "E-mail",
+    "warning-email": "Please enter your email!",
     "dropdown": "How did you find us?",
     "comment": "Comment",
     "button": "Submit"
@@ -104,5 +106,4 @@
     "button": "Book Now",
     "address": "08850 Gavà, Barcelona, Carrer Riu Ter, 6"
   }
-
 }

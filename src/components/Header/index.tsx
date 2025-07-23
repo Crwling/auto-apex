@@ -8,6 +8,7 @@ import AutoApexLogo from '../../../public/assets/Auto-apex-logo';
 import WhatsApp from '../../../public/assets/whatsapp';
 import MenuIcon from '../../../public/assets/menu';
 import MenuXIcon from '../../../public/assets/menuX';
+import WhatsAppGreen from '../../../public/assets/whatsapp-green';
 
 const navLinks = [
   { href: '#hero', label: 'home' },
@@ -100,6 +101,14 @@ export default function Header({ onOpenModal }: { onOpenModal: () => void }) {
           </div>
         </div>
       )}
+    <a
+      href="https://wa.me/34638745024" // <-- your WhatsApp number here
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <WhatsAppGreen className={styles.whatsappgreen}/>
+    </a>
     </header>
   );
 }

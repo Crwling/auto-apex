@@ -47,7 +47,10 @@
 
         display: flex;
         flex-direction: column;
-        align-items: center;
+
+        @include respond-to(mobile) {
+          align-items: center;
+        }
 
         .contactsTitle {
           margin: 0 0 28px;

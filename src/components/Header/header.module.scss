@@ -123,19 +123,39 @@
                 }
             }
         }
+    }
 
-        .whatsapp {
-            color: var(--blue);
+    .whatsapp {
+        color: var(--blue);
 
-            @include respond-to(mobile) {
-                height: 30px;
-                width: 30px;
-                display: none;
-            }
+        @include respond-to(mobile) {
+            height: 30px;
+            width: 30px;
+            display: none;
+        }
 
-            &:hover{
-                color: var(--light-grey);
-            }
+        &:hover{
+            color: var(--light-grey);
+        }
+    }
+
+    .whatsappgreen {
+        width: 82px;
+        height: 82px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+        @include respond-to (tablet) {
+        bottom: 22px;
+        right: 16px;
+        }
+
+        @include respond-to (mobile) {
+        width: 52px;
+        height: 52px;
+        right: 9px;
+        bottom: 38px;
         }
     }
 }

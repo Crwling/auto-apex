@@ -11,6 +11,9 @@ import SuccessModal from "@/components/Modal/SuccessModal";
 import Modal from '@/components/Modal';
 
 export default function RequestForm() {
+
+  const t = useTranslations('leave-a-request');
+
   const [open, setOpen] = useState(false);
   const [data, setData] = useState({
     name: '',
@@ -30,9 +33,9 @@ export default function RequestForm() {
     e.preventDefault();
     if (!data.name || !data.number || !data.email) {
       setErrors({
-        name: !data.name ? 'Please enter your name!' : '',
-        number: !data.number ? 'Please enter your number!' : '',
-        email: !data.email ? 'Please enter your email!' : '',
+        name: !data.name ? `${t('warning-name')}` : '',
+        number: !data.number ? `${t('warning-number')}` : '',
+        email: !data.email ? `${t('warning-email')}` : '',
       });
       return;
     } else {
@@ -78,9 +81,6 @@ export default function RequestForm() {
 
     setData(prevData => ({ ...prevData, number: value && !!Number.parseInt(value) ? Number.parseInt(value) + '' : '' }));
   }
-
-
-  const t = useTranslations('leave-a-request');
 
   return (
     <>

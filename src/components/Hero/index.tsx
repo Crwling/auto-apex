@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Button from '../Button';
 import styles from './hero.module.scss';
-import WhatsAppGreen from '../../../public/assets/whatsapp-green';
+import Slider from '../Slider';
 
 const heroSlides = [
   {
@@ -41,30 +41,28 @@ export default function Hero({ onOpenModal }: { onOpenModal: () => void }) {
   const progressBarWidth = ((currentSlide + 1) / (heroSlides.length)) * 100;
 
   return (
-    <div id="hero" className={styles.container} style={{
-      background: `url(${heroSlides[currentSlide].src}) no-repeat center center / cover`,
-    }}>
-      <div className={styles.description}>
-        <h1>{t(heroSlides[currentSlide].title)}</h1>
-        <h3>{t(heroSlides[currentSlide].subtitle)}</h3>
-        <Button variant='blue' onClick={onOpenModal}>{t(heroSlides[currentSlide].buttonText)}</Button>
-      </div>
-      <div className={styles.schedule}>
-        <div className={styles.title}>{t('schedule1')}</div>
-        <div>{t('schedule2')}</div>
-        <div>{t('schedule3')}</div>
-      </div>
-      <a
-        href="https://wa.me/34638745024" // <-- your WhatsApp number here
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Chat on WhatsApp"
-      >
-        <WhatsAppGreen className={styles.whatsapp}/>
-      </a>
+    <>
+      <Slider>
+        {heroSlides.map((currentSlide, index) => (
+          <div id="hero" key={index} className={styles.container} style={{
+            background: `url(${currentSlide.src}) no-repeat center center / cover`,
+          }}>
+            <div className={styles.description}>
+              <h1>{t(currentSlide.title)}</h1>
+              <h3>{t(currentSlide.subtitle)}</h3>
+              <Button variant='blue' onClick={onOpenModal}>{t(currentSlide.buttonText)}</Button>
+            </div>
+            <div className={styles.schedule}>
+              <div className={styles.title}>{t('schedule1')}</div>
+              <div>{t('schedule2')}</div>
+              <div>{t('schedule3')}</div>
+            </div>
+          </div>
+        ))}
+      </Slider>
       <div className={styles.progress}>
         <div className={styles.progressBar} style={{ width: `${progressBarWidth}%` }} />
       </div>
-    </div>
+    </>
   );
 }
