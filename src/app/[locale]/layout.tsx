@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import './globals.css';
+// import './globals.css';
 import { Urbanist, Montserrat, Manrope } from 'next/font/google';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 

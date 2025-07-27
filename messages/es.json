@@ -1,7 +1,8 @@
 {
   "notFoundPage": {
-    "title": "Página no encontrada",
-    "description": "¡Vaya! Parece que ha llegado a una página que no existe. No se preocupe, nuestra magia de internacionalización sigue funcionando en otras partes de la aplicación. Si lo desea, puede regresar y seguir explorando."
+    "title": "¡Lo sentimos!",
+    "description": "La página que buscas no se encuentra disponible",
+    "button": "Volver"
   },
   "header": {
     "home": "Inicio",
@@ -83,7 +84,10 @@
   "portfolio": {
     "name": "Portafolio",
     "make": "Marca",
-    "year": "Año"
+    "year": "Año",
+    "banner": "Precios desde 100 €",
+    "show-more": "Mostrar más",
+    "show-less": "Mostrar menos"
   },
   "prices": "Precios desde €100",
   "faq": {

@@ -83,7 +83,7 @@
 
       @include respond-to(mobile) {
         right: 10px;
-        top: 20px;
+        top: 10px;
         width: 40px;
         height: 40px;
       }
@@ -121,5 +121,4 @@
       }
     }
   }
-
 }

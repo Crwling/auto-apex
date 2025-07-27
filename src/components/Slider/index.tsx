@@ -1,5 +1,6 @@
-import React, { useEffect, useState, ReactNode, useRef, use } from "react";
+import React, { useEffect, useState, ReactNode, useRef } from "react";
 import { useResizeDetector } from "react-resize-detector";
+import styles from './slider.module.scss';
 
 interface SliderProps {
   children: ReactNode[];
@@ -23,34 +24,23 @@ const Slider: React.FC<SliderProps> = ({ children, interval = 5000 }) => {
   return (
     <div
       ref={ref}
-      style={{
-        overflow: "hidden",
-        width: "100%",
-        height: "100dvh",
-        position: "relative",
-        background: "var(--black)"
-      }}
+      className={styles.container}
     >
       <div
         ref={containerRef}
+        className={styles.sliderTrack}
         style={{
           opacity: !!width ? 1 : 0,
-          display: "flex",
-          transition: "transform 0.5s ease-in-out",
           transform: `translateX(-${(width || 0) * currentIndex + 1}px)`,
           width: `${totalSlides * (width || 0)}px`,
-          height: "100%",
         }}
       >
         {children.map((child, index) => (
           <div
             key={index}
+            className={styles.slideMobile}
             style={{
               width: width,
-              height: "100%",
-              display: "flex",
-              background: "#eee",
-              fontSize: "24px",
             }}
           >
             {child}

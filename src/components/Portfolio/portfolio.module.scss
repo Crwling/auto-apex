@@ -1,0 +1,249 @@
+@import "../../styles/mixin";
+
+.portfolioWrapper {
+  max-width: 100%;
+  position: relative;
+  overflow: visible;
+  background: #fff;
+  padding: 100px 60px 60px;
+
+  @include respond-to(mobile) {
+    padding: 40px 16px;
+  }
+
+  :global {
+    .image-gallery-bullets {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      z-index: 10;
+    }
+
+    .image-gallery-bullet {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #aaa;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &.active {
+        background-color: #000;
+        opacity: 1;
+        transform: scale(1.2);
+      }
+    }
+
+    .image-gallery-left-nav,
+    .image-gallery-right-nav {
+      &:hover {
+        color: var(--red);
+      }
+    }
+    .image-gallery-icon {
+      &:hover{
+        stroke: var(--red);
+      }
+    }
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .portfolioDesktop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 24px;
+    justify-content: center;
+    overflow: hidden;
+    height: auto;
+
+    &.collapsed {
+      height: 377px;
+    }
+  }
+
+  .container {
+    @include respond-to(mobile){
+      display: none;
+    }
+  }
+
+  .portfolioMobile {
+    display: none;
+    overflow: hidden;
+
+    @include respond-to(mobile){
+      display: flex;
+      flex-direction: column;
+      max-height: 450px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .image {
+      width: 100%;
+      height: 104px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 8px;
+    }
+
+
+
+ 
+  }
+
+  .slide {
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+
+    @include respond-to(mobile) {
+      padding: 0;
+    }
+      
+    .image {
+      border-radius: 8px;
+      object-fit: contain;
+      background-size: contain;
+      background-position: center center;
+      height: 273px;
+      background-repeat: no-repeat;
+
+      @include respond-to(mobile) {
+        margin-top: 10px;
+      }
+    }
+
+    .infoRow {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      margin-top: 0.75rem;
+
+      @include respond-to(mobile) {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .showMoreBtn {
+    height: 54px;
+    margin-top: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 70%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner {
+    position: relative;
+    background: url('/assets/portfolio/banner.png') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    height: 205px;
+    box-sizing: border-box;
+
+    @include respond-to(tablet) {
+      padding: 34px;
+      background: url('/assets/portfolio/banner-tablet.png') no-repeat;
+    }
+
+    @include respond-to(mobile) {
+      padding: 20px;
+      background: url('/assets/portfolio/banner-mobile.png') no-repeat;
+    }
+
+    .bannerText {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h2 {
+        margin: 20px 0 0 0;
+
+        @include respond-to(mobile) {
+          margin: 14px 0 0 0;
+          font-size: 26px;
+          line-height: 44px;
+        }
+      }
+
+      .logo {
+        height: 21px;
+        width: 111px;
+      }
+    }
+  }
+}
+
+.galleryModal {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  padding: 30px;
+  overflow: auto;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.closeGallery {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1100;
+  border: 1px solid var(--black);
+  width: 30px !important;
+  height: 30px !important;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+.galleryOverlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.image-gallery-swipe {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

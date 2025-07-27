@@ -1,3 +1,5 @@
+@import '../../styles/mixin.scss';
+
 .modalOverlay {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -14,15 +16,21 @@
 .modalContent {
   width: 100%;
   position: relative;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   max-width: 660px;
   margin: 0;
+  margin-top: 30px;
   border-radius: 20px;
   overflow: auto;
   max-height: 948px;
   height: 100%;
+
+  @include respond-to(mobile) {
+    border-radius: unset;
+    margin: 0;
+  }
 }
 
 .closeBtn {

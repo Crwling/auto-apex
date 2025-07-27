@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.17",
+    "@types/react-image-gallery": "^1.2.4",
     "@types/react-modal": "^3.16.3",
     "@types/react-slick": "^0.23.13",
     "clsx": "^2.1.1",
@@ -19,6 +20,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.60.0",
+    "react-image-gallery": "^1.4.0",
     "react-modal": "^3.16.3",
     "react-resize-detector": "^12.1.0",
     "react-select": "^5.10.2",

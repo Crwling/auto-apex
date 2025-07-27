@@ -1,7 +1,8 @@
 {
   "notFoundPage": {
-    "title": "Page Not Found",
-    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+    "title": "So Sorry!",
+    "description": "The page you are looking for cannot be found",
+    "button": "Back"
   },
   "header": {
     "home": "Home",
@@ -83,7 +84,10 @@
   "portfolio": {
     "name": "Portfolio",
     "make": "Make",
-    "year": "Year"
+    "year": "Year",
+    "banner": "Prices from €100",
+    "show-more": "Show More",
+    "show-less": "Show Less"
   },
   "prices": "Prices from €100",
   "faq": {

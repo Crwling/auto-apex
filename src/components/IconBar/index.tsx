@@ -1,9 +1,7 @@
 import styles from './icon-bar.module.scss';
 import EmailRound from '../../../public/assets/icons/email-round';
 import Insta from '../../../public/assets/icons/insta';
-import Twitter from '../../../public/assets/icons/x';
 import Facebook from '../../../public/assets/icons/facebook';
-import LinkedIn from '../../../public/assets/icons/linkedin';
 
 export default function IconBar() {
 
@@ -23,7 +21,6 @@ export default function IconBar() {
       >
         <Insta className={styles.icon} />
       </a>
-      <Twitter className={styles.icon}/>
       <a
         href="https://www.facebook.com/share/1D6wMozTRE/?mibextid=wwXIfr"
         target="_blank"
@@ -32,8 +29,6 @@ export default function IconBar() {
       >
         <Facebook className={styles.icon} />
       </a>
-     
-      <LinkedIn className={styles.icon}/>
     </div>
   );
 }

@@ -41,7 +41,7 @@ export default function Hero({ onOpenModal }: { onOpenModal: () => void }) {
   const progressBarWidth = ((currentSlide + 1) / (heroSlides.length)) * 100;
 
   return (
-    <>
+    <div className={styles.superContainer}>
       <Slider>
         {heroSlides.map((currentSlide, index) => (
           <div id="hero" key={index} className={styles.container} style={{
@@ -57,12 +57,13 @@ export default function Hero({ onOpenModal }: { onOpenModal: () => void }) {
               <div>{t('schedule2')}</div>
               <div>{t('schedule3')}</div>
             </div>
+           
           </div>
         ))}
       </Slider>
       <div className={styles.progress}>
         <div className={styles.progressBar} style={{ width: `${progressBarWidth}%` }} />
       </div>
-    </>
+    </div>
   );
 }

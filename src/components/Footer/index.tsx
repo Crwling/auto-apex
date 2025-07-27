@@ -37,7 +37,9 @@ export default function Footer({ onOpenModal }: { onOpenModal: () => void }) {
           </div>
         </div>
         <div className={styles.rightcol}>
-          <IconBar/>
+          <div className={styles.icons}>
+            <IconBar/>
+          </div>
           <Button
             variant='white'
             className={styles.button}

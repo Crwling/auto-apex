@@ -6,7 +6,7 @@ import About from '../../components/About';
 import Bottom from '@/components/Bottom';
 import Services from '@/components/Services';
 import FAQ from '@/components/faq';
-import Portfolio from '@/components/Carousel';
+import Portfolio from '@/components/Portfolio';
 import ModalForm from '@/components/Modal';
 import Modal from 'react-modal';
 import Header from '../../components/Header';
@@ -32,7 +32,7 @@ export default function Home() {
       <Hero onOpenModal={() => setOpen(true)}/>
       <About/>
       <Services/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       <FAQ/>
       <Bottom onOpenModal={() => setOpen(true)}/>
       <ModalForm open={open} setOpen={setOpen}>
