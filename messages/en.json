@@ -1,8 +1,7 @@
 {
   "notFoundPage": {
-    "title": "So Sorry!",
-    "description": "The page you are looking for cannot be found",
-    "button": "Back"
+    "title": "Page Not Found",
+    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
   },
   "header": {
     "home": "Home",
@@ -16,7 +15,7 @@
   "footer": {
     "contacts": "Contacts:",
     "phone": "+34 638 745 024",
-    "email": "hello@containers.kit",
+    "email": "autoapex2000@gmail.com",
     "copyright": "Auto Apex © 2025",
     "home": "Home",
     "about-us": "About us",
@@ -63,7 +62,7 @@
   "services": {
     "head": "Our Services",
     "option-title-1": "Ceiling Upholstery",
-    "option-description-1": "Expert reupholstery using premium materials like Alcantara and genuine leather.",
+    "option-description-1": "Expert reupholstery using premium materials high quality materials.",
     "option-title-2": "Door Inserts Upholstery",
     "option-description-2": "Restoring and upgrading door trims with high-quality fabrics.",
     "option-title-3": "Steering Wheel Upholstery",
@@ -84,16 +83,13 @@
   "portfolio": {
     "name": "Portfolio",
     "make": "Make",
-    "year": "Year",
-    "banner": "Prices from €100",
-    "show-more": "Show More",
-    "show-less": "Show Less"
+    "year": "Year"
   },
   "prices": "Prices from €100",
   "faq": {
     "head": "Frequently Asked Questions",
     "question-1": "How long does it take to reupholster a car interior?",
-    "answer-1": "Depending on the complexity and materials chosen, most projects take between 2 to 7 days. We always aim to complete the work as quickly as possible while maintaining high quality.",
+    "answer-1": "Depending on the complexity and materials chosen, most projects take between 1 to 3 days. We always aim to complete the work as quickly as possible while maintaining high quality.",
     "question-2": "Can I choose custom materials and colors?",
     "answer-2": "Yes",
     "question-3": "Do you offer a warranty on your services?",

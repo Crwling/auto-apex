@@ -1,8 +1,7 @@
 {
   "notFoundPage": {
-    "title": "¡Lo sentimos!",
-    "description": "La página que buscas no se encuentra disponible",
-    "button": "Volver"
+    "title": "Página no encontrada",
+    "description": "¡Vaya! Parece que ha llegado a una página que no existe. No se preocupe, nuestra magia de internacionalización sigue funcionando en otras partes de la aplicación. Si lo desea, puede regresar y seguir explorando."
   },
   "header": {
     "home": "Inicio",
@@ -16,7 +15,7 @@
   "footer": {
     "contacts": "Contacto:",
     "phone": "+34 638 745 024",
-    "email": "hello@containers.kit",
+    "email": "autoapex2000@gmail.com",
     "copyright": "Auto Apex © 2025",
     "home": "Inicio",
     "about-us": "Sobre nosotros",
@@ -51,19 +50,19 @@
   "leave-a-request": {
     "head": "Enviar solicitud",
     "name": "Nombre",
-    "warning-name": "¡Por favor, introduzca su nombre!",
+    "warning-name": "Por favor, introduzca su nombre!",
     "number": "Teléfono",
-    "warning-number": "¡Por favor, introduzca su teléfono!",
+    "warning-number": "Por favor, introduzca su teléfono!",
     "email": "Correo electrónico",
-    "warning-email": "¡Por favor, introduzca su correo electrónico!",
-    "dropdown": "¿Cómo nos ha encontrado?",
+    "warning-email": "Por favor, introduzca su correo electrónico!",
+    "dropdown": "Cómo nos ha encontrado?",
     "comment": "Comentario",
     "button": "Enviar"
   },
   "services": {
     "head": "Nuestros servicios",
     "option-title-1": "Tapizado de techo",
-    "option-description-1": "Retapizado profesional con materiales premium como Alcántara y cuero genuino.",
+    "option-description-1": "Retapizado profesional con materiales de alta calidad.",
     "option-title-2": "Tapizado de puertas",
     "option-description-2": "Restauración y mejora de paneles de puerta con telas de alta calidad.",
     "option-title-3": "Tapizado del volante",
@@ -84,23 +83,20 @@
   "portfolio": {
     "name": "Portafolio",
     "make": "Marca",
-    "year": "Año",
-    "banner": "Precios desde 100 €",
-    "show-more": "Mostrar más",
-    "show-less": "Mostrar menos"
+    "year": "Año"
   },
   "prices": "Precios desde €100",
   "faq": {
     "head": "Preguntas frecuentes",
-    "question-1": "¿Cuánto tiempo se tarda en retapizar el interior de un coche?",
-    "answer-1": "Dependiendo de la complejidad y los materiales elegidos, la mayoría de los proyectos tardan entre 2 y 7 días. Siempre procuramos completar el trabajo lo antes posible sin comprometer la calidad.",
-    "question-2": "¿Puedo elegir materiales y colores personalizados?",
+    "question-1": "Cuánto tiempo se tarda en retapizar el interior de un coche?",
+    "answer-1": "Dependiendo de la complejidad y los materiales elegidos, la mayoría de los proyectos tardan entre 1 y 3 días. Siempre procuramos completar el trabajo lo antes posible sin comprometer la calidad.",
+    "question-2": "Puedo elegir materiales y colores personalizados?",
     "answer-2": "Sí",
-    "question-3": "¿Ofrecen garantía en sus servicios?",
+    "question-3": "Ofrecen garantía en sus servicios?",
     "answer-3": "Sí",
-    "question-4": "¿Debo llevar mi coche al taller?",
+    "question-4": "Debo llevar mi coche al taller?",
     "answer-4": "Sí",
-    "question-5": "¿Pueden restaurar interiores de coches antiguos o clásicos?",
+    "question-5": "Pueden restaurar interiores de coches antiguos o clásicos?",
     "answer-5": "Sí"
   },
   "bottom": {
