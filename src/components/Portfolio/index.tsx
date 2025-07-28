@@ -41,7 +41,6 @@ const slides = [
     make: 'Audi A6',
     year: '2018',
   },
-
 ]
 
 const Portfolio = () => {
