@@ -83,8 +83,12 @@
   "portfolio": {
     "name": "Portafolio",
     "make": "Marca",
-    "year": "Año"
+    "year": "Año",
+    "banner": "Precios desde 100 €",
+    "show-more": "Mostrar más",
+    "show-less": "Mostrar menos"
   },
+
   "prices": "Precios desde €100",
   "faq": {
     "head": "Preguntas frecuentes",

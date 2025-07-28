@@ -36,6 +36,12 @@ const slides = [
     make: 'Audi A6',
     year: '2018',
   },
+  {
+    image: '/assets/portfolio/image-5.png',
+    make: 'Audi A6',
+    year: '2018',
+  },
+
 ]
 
 const Portfolio = () => {
